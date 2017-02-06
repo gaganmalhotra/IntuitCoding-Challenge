@@ -4,7 +4,8 @@ A Node app built with Angular that parses user transaction data and predicts use
 
 ## Installation
 
-1. Clone the repository: `git clone git@github.com:scotch-io/node-todo`
+1. Clone the repository
+2. Uncompress transaction-data.zip at the root location of the project
 2. Install the application: `npm install`
 3. Start the server: `node server.js`
 4. View in browser at `http://localhost:1338/`
