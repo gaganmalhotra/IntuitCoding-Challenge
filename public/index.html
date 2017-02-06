@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html ng-app="app" ng-controller="controller">
+<head>
+  <title>Intuit Challenge</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+<div class="container">
+  <h2>Please select the preferences:</h2>
+  <p>The form below contains personality traits yoou wish to be matched with!</p>
+  <form>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.music" value="music">Music Lover</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.movies" value="movies">Movie Buff</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.food" value="food">Foodie</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.gamer" value="gamer">Interested in Gaming</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.sportsFitness" value="sportsFitness">Intersted in Sports & Fitness</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.arts" value="arts">Interested in Arts</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.party" value="party">Outgoing</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.married_parent" value="married_parent">Married</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.reading" value="reading">Loves Reading</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.unstable" value="unstable">Punctual</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.ownsPet" value="ownsPet">Owns a Pet</label>
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" ng-model="traits.student" value="student">Should be a Student</label>
+    </div>
+
+    <div>
+        <button ng-click="submit()">Ingest Data</button>
+        <button ng-click="makeCharts(data)">Find Matches!</button>
+      </div>
+  </form>
+</div>
+
+<div id="chartContainer">
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min.js"></script>
+<script src="/js/app.js"></script>
+<script src="/js/controller.js"></script>
+<script src="/js/routes.js"></script>
+<script src="/js/service.js"></script>
+</body>
+</html>

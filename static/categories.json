@@ -1,0 +1,111 @@
+{
+	"student": [
+		"student",
+		"loans",
+		"courses",
+		"education"
+	],
+	"unstable": [
+		"late fee",
+		"negative balance",
+		"penalty",
+		"overdraft fee",
+		"bank fee"
+	],
+	"music": [
+		"music",
+		"concert",
+		"piano",
+		"podcast",
+		"guitar"
+	],
+	"food": [
+		"food delivery",
+		"grubhub",
+		"restaurant",
+		"coffee"
+	],
+	"movies": [
+		"star wars",
+		"netflix",
+		"hbo",
+		"hulu",
+		"on demand tv",
+		"on demand movies"
+	],
+	"reading": [
+		"book",
+		"library",
+		"reading"
+	],
+	"income": [
+		"paycheck"
+	],
+	"household": [
+		"time warner",
+		"gas & electric",
+		"water",
+		"sewer",
+		"whole foods",
+		"grocery",
+		"groceries"
+	],
+	"publicTransport": [
+		"lyft",
+		"uber",
+		"taxi",
+		"bus pass",
+		"train pass"
+	],
+	"gamer": [
+		"playstation",
+		"video game",
+		"xbox",
+		"wii",
+		"nintendo"
+	],
+	"sportsFitness": [
+		"gym",
+		"gnc",
+		"whey",
+		"protein",
+		"vitamin",
+		"sports",
+		"fitness",
+		"athletic",
+		"nba",
+		"football",
+		"nfl"
+	],
+	"party": [
+		"bar",
+		"wine",
+		"beer",
+		"brewery",
+		"club",
+		"night club",
+		"cancun",
+		"resort",
+		"bowling",
+		"skating"
+	],
+	"married_parent": [
+		"divorce",
+		"baby",
+		"prenatal",
+		"babies"
+	],
+	"ownsPet": [
+		"pet",
+		"cat food"
+	],
+	"arts": [
+		"art",
+		"museum",
+		"art",
+		"canvas",
+		"paint",
+		"auction",
+		"craft"
+	]
+}

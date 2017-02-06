@@ -1,0 +1,92 @@
+{
+	"music": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"movies": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"food": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"student": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"unstable": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"reading": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"income": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"household": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"publicTransport": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"gamer": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"sportsFitness": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"party": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"married_parent": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"ownsPet": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	},
+	"arts": {
+		"isPresent": false,
+		"totalExpense": 0,
+		"expenseRatio": 0,
+		"frequency": 0
+	}
+}
