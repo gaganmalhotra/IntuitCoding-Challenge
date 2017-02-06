@@ -7,5 +7,10 @@ A Node app built with Angular that parses user transaction data and predicts use
 1. Clone the repository: `git clone git@github.com:scotch-io/node-todo`
 2. Install the application: `npm install`
 3. Start the server: `node server.js`
-4. View in browser at `http://localhost:8080/index.html`
+4. View in browser at `http://localhost:1338/`
+
+## How to run
+1. First click on ingest data
+2. And now choose all the desirable traits you want the user to be sorted on
+3. Now click on Find Matches! to get a visual representation of users selected and their other traits in the form of charts
 
