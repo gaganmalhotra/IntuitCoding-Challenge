@@ -24,4 +24,4 @@ A Node app built with Angular that parses user transaction data and predicts use
 ## Attached screenshots of the application
 
 ![ScreenShot](https://github.com/gaganmalhotra/IntuitCoding-Challenge/blob/master/app1.png)
-![ScreenShot](https://github.com/gaganmalhotra/IntuitCoding-Challenge/blob/master/app2.png)
+![ScreenShot](https://github.com/gaganmalhotra/IntuitCoding-Challenge/blob/master/app3.png)
