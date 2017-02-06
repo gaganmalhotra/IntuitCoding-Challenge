@@ -13,19 +13,9 @@ const resultCategories = require('./static/resultCategories.json');
 var app = express();
 app.use(express.static(__dirname + "/public")); //use static files in ROOT/public folder
 
-app.get("/getName", function(request, response) { //root dir
-  //var res = main.init();
-  var obj = {
-    name: "gagan",
-    age: 16
-  }
-  response.send(res);
-
-});
-
 app.get('/name', function(req, res, next) {
 
-      var path = "./rit-challenge/transaction-data/";
+      var path = "./transaction-data/";
       var parsedMap = new Map();
 
       // read and parse the list of csv files into a map with user

@@ -2,11 +2,16 @@ app.controller('controller', function($scope, dataService) {
     $scope.data = null;
     $scope.preferences = {};
     $scope.submit = function(where) {
+      $scope.isLoading = true;
       dataService.getData().then(function(response) {
           $scope.data = response;
+          $scope.isLoading = false;
+          $scope.findPref = true;
       });
     };
 
+    $scope.isLoading = false;
+    $scope.findPref = false;
     $scope.makeCharts = function(dataa, preferences) {
       var myNode = document.getElementById("chartContainer");
       while (myNode.firstChild) {

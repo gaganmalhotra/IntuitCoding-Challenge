@@ -57,6 +57,8 @@
     <div>
         <button ng-click="submit()">Ingest Data</button>
         <button ng-click="makeCharts(data)">Find Matches!</button>
+        <p ng-if = "isLoading">Ingesting data......</p>
+        <p ng-if = "findPref">Now select preferences and click FindMatches</p>
       </div>
   </form>
 </div>
