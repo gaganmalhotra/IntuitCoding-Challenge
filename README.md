@@ -16,7 +16,7 @@ A Node app built with Angular that parses user transaction data and predicts use
 3. Now click on Find Matches! to get a visual representation of users selected and their other traits in the form of charts
 
 ## Description
-1. As we only had only 'Vendor' and 'cost' as important features present, auto categorization based on keywords in the 'Vendor' instances made sense.
+1. As we only had 'Vendor' and 'cost' as important features present in the given dataset, auto categorization based on keywords in the 'Vendor' instances made sense.
 2. So, all the users that incurred costs on similar high level categories were searched for while finding the best possible compatible persons.
 3. Based on the Input from the user, all the users that matched the set criteria were displayed along with giving extra set of information depicted in the form of charts per user.
 
